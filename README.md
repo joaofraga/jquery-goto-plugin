@@ -1,5 +1,4 @@
-jquery goTo plugin
-==================
+# jquery goTo plugin
 
 Soft scroll the window determinated DOM object
 
@@ -8,8 +7,10 @@ Soft scroll the window determinated DOM object
 @param speed string/int - speed of scroll easing
 @param callback function - function at callback
 
-Example utilization:
+### Example utilization:
 
+```javascript
 $('.foo').click(function(){
   $('.bar').goTo();
 })
+```
